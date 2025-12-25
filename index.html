@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJ Nocoon</title>
+
+    <!-- Tailwind CDN (replace with build later if needed) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .nav-link {
+        transition: color 0.2s;
+      }
+      .nav-link:hover {
+        color: #60a5fa;
+      }
+      .mobile-link {
+        display: block;
+        padding: 12px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+
+  <body class="bg-black text-white">
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-md border-b border-white/5"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a href="#home">
+          <img
+            src="assets/logo/nocoon.png"
+            class="invert w-32"
+            alt="DJ Nocoon Logo"
+          />
+        </a>
+
+        <!-- Desktop -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#references" class="nav-link">References</a>
+          <a href="#shows" class="nav-link">Shows</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <!-- Mobile button -->
+        <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-black/95 px-6 pb-6 text-center"
+      >
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#references" class="mobile-link">References</a>
+        <a href="#shows" class="mobile-link">Shows</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section
+      id="home"
+      class="relative h-screen w-full flex items-center justify-center text-white"
+    >
+      <img src="#" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div class="relative z-10 text-center px-6">
+        <img src="assets/logo/nocoon.png" class="invert mx-auto mb-6" />
+        <p class="text-lg md:text-2xl text-gray-300 mb-8">
+          Open-Format DJ & Producer
+        </p>
+
+        <div class="flex justify-center gap-4">
+          <a
+            href="#about"
+            class="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition font-semibold"
+          >
+            About
+          </a>
+          <a
+            href="#contact"
+            class="px-8 py-3 rounded-full border border-white hover:bg-white hover:text-black transition font-semibold"
+          >
+            Bookings
+          </a>
+        </div>
+      </div>
+
+      <div class="absolute bottom-10 opacity-70 animate-bounce text-3xl">↓</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section
+      id="about"
+      class="w-full bg-[#0a0a0a] py-24 px-6 flex justify-center"
+    >
+      <div class="max-w-3xl text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">About</h2>
+        <p class="text-gray-300 leading-relaxed text-lg">
+          DJ Nocoon is a Luxembourg based Open-format DJ known for his
+          versatility, creative mixing and precise scratching technique. Active
+          since 2010, he brings over a decade of experience to every event and
+          is widely regarded as one of Luxembourg’s most reliable and skilled
+          DJs. His sets are energetic and tailored to any audience, ranging from
+          urban crowds to commercial clubs and high end corporate events.<br /><br />
+          Winner of the Best Hip Hop and RnB DJ Award at the Luxembourg
+          Nightlife Awards, Nocoon has performed at some of the most prestigious
+          venues and events across Europe and built a strong reputation for
+          delivering professional, high quality shows.<br /><br />
+          His technical ability, experience and crowd awareness make him an
+          artist who consistently delivers unforgettable nights.
+          <br /><br />Alongside his DJ career, he is also known for his
+          production side project
+          <a
+            class="font-bold"
+            href="https://open.spotify.com/artist/54Dren7MU8rhloIAUbV4Yg?si=69rAzDayQYGuKNDf4nHN1A"
+            >Spektrum</a
+          >, which has accumulated over +40 million streams worldwide across all
+          platforms, further underlining his musical credibility and reach.
+        </p>
+      </div>
+    </section>
+
+    <!-- REFERENCES -->
+    <section class="w-full bg-black py-24 px-6">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">References</h2>
+        <div
+          id="references"
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 items-center"
+        ></div>
+      </div>
+    </section>
+
+    <!-- SHOWS -->
+    <section class="w-full bg-black py-24 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">
+          Upcoming Shows
+        </h2>
+        <div
+          id="shows"
+          class="bg-[#111] border border-white/5 rounded-xl px-6 py-4"
+        ></div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="w-full bg-black py-24 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">Videos</h2>
+        <div id="videos" class="grid grid-cols-1 md:grid-cols-2 gap-10"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="w-full bg-black py-24 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">Gallery</h2>
+        <div
+          id="gallery"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        ></div>
+      </div>
+    </section>
+
+    <!-- CONTACT / BOOKINGS -->
+    <section id="contact" class="w-full bg-black py-24 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-white mb-6">
+          Bookings & Inquiries
+        </h2>
+
+        <p class="text-gray-300 text-lg mb-10">
+          For bookings, availability, or event inquiries, contact me directly on
+          Instagram.
+        </p>
+
+        <a
+          href="https://instagram.com/djnocoon"
+          target="_blank"
+          class="inline-block px-10 py-4 bg-white text-black font-semibold rounded hover:opacity-90 transition"
+        >
+          Book via Instagram
+        </a>
+      </div>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
