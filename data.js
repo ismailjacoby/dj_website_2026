@@ -19,12 +19,6 @@ const logos = [
 
 const shows = [
   {
-    date: "27 Dec 2025",
-    venue: "Main",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
     date: "31 Dec 2025",
     venue: "Encore",
     location: "Luxembourg, Lu",
