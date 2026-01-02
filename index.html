@@ -13,7 +13,7 @@ DJ Nocoon
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="assets/logo/favicon.png">
+    <link rel="icon" type="image/x-icon" href="assets/logo/favicon.png" />
     <title>DJ Nocoon</title>
 
     <!-- Tailwind CDN-->
@@ -33,7 +33,7 @@ DJ Nocoon
         padding: 12px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       }
-      
+
       .artist {
         color: rgba(255, 255, 255, 0.65);
         transition: all 0.2s ease;
@@ -43,7 +43,6 @@ DJ Nocoon
         color: white;
         text-shadow: 0 0 12px rgba(96, 165, 250, 0.6);
       }
-
     </style>
   </head>
 
@@ -67,8 +66,9 @@ DJ Nocoon
         <div class="hidden md:flex space-x-8">
           <a href="#home" class="nav-link">Home</a>
           <a href="#about" class="nav-link">About</a>
-          <a href="#references" class="nav-link">References</a>
-          <a href="#shows" class="nav-link">Shows</a>
+          <a href="#reference" class="nav-link">References</a>
+          <a href="#show" class="nav-link">Shows</a>
+          <a href="services.html" class="nav-link">Services</a>
           <a href="#contact" class="nav-link">Contact</a>
         </div>
 
@@ -83,8 +83,8 @@ DJ Nocoon
       >
         <a href="#home" class="mobile-link">Home</a>
         <a href="#about" class="mobile-link">About</a>
-        <a href="#references" class="mobile-link">References</a>
-        <a href="#shows" class="mobile-link">Shows</a>
+        <a href="#reference" class="mobile-link">References</a>
+        <a href="#show" class="mobile-link">Shows</a>
         <a href="#contact" class="mobile-link">Contact</a>
       </div>
     </nav>
@@ -133,9 +133,11 @@ DJ Nocoon
           DJ Nocoon is a Luxembourg based Open-Format DJ known for his
           versatility, creative mixing and precise scratching technique. Active
           since 2010, he brings over a decade of experience to every event and
-          is widely regarded as one of Luxembourg’s most skilled
-          DJs.<br /><br />
-          Awarded Best Urban DJ at the Luxembourg Nightlife Awards, Nocoon has performed at some of the most prestigious venues and events across Europe, building a reputation for consistently delivering reliable, high-quality DJ sets.
+          is widely regarded as one of Luxembourg’s most skilled DJs.<br /><br />
+          Awarded Best Urban DJ at the Luxembourg Nightlife Awards, Nocoon has
+          performed at some of the most prestigious venues and events across
+          Europe, building a reputation for consistently delivering reliable,
+          high-quality DJ sets.
           <br /><br />Alongside his DJ career, he is also known for his music
           production side project
           <a
@@ -149,7 +151,7 @@ DJ Nocoon
     </section>
 
     <!-- REFERENCES -->
-    <section class="w-full bg-black py-24 px-6">
+    <section class="w-full bg-black py-24 px-6" id="reference">
       <div class="max-w-5xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-10">References</h2>
         <div
@@ -157,62 +159,55 @@ DJ Nocoon
           class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 items-center"
         ></div>
       </div>
-     
     </section>
 
     <!-- ARTIST SUPPORT -->
-<section class="w-full bg-black py-24 px-6">
-  <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-4">
-      Artist Support
-    </h2>
-    <p class="text-gray-400 text-lg mb-14">
-      Performed alongside internationally recognized artists
-    </p>
+    <section class="w-full bg-black py-24 px-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Artist Support</h2>
+        <p class="text-gray-400 text-lg mb-14">
+          Performed alongside internationally recognized artists
+        </p>
 
-    <div
-      class="grid gap-x-8 gap-y-6
-      [grid-template-columns:repeat(auto-fit,minmax(160px,1fr))]
-      justify-center
-      text-sm sm:text-base font-semibold tracking-wide uppercase"
-    >
-      <span class="artist">Ace Hood</span>
-      <span class="artist">Aya Nakamura</span>
-      <span class="artist">Booba</span>
-      <span class="artist">C.J</span>
-      <span class="artist">Charly Black</span>
-      <span class="artist">Daddy Yankee</span>
-      <span class="artist">Dadju</span>
-      <span class="artist">DJ Snake</span>
-      <span class="artist">Fat Joe</span>
-      <span class="artist">Franglish</span>
-      <span class="artist">Gims</span>
-      <span class="artist">Gradur</span>
-      <span class="artist">Guy2Bezbar</span>
-      <span class="artist">Jason Derulo</span>
-      <span class="artist">Keblack</span>
-      <span class="artist">Kid Ink</span>
-      <span class="artist">Lil Jon</span>
-      <span class="artist">Mario</span>
-      <span class="artist">Matt Houston</span>
-      <span class="artist">Mims</span>
-      <span class="artist">Naza</span>
-      <span class="artist">Ninho</span>
-      <span class="artist">Niska</span>
-      <span class="artist">O.T. Genasis</span>
-      <span class="artist">Russ Millions</span>
-      <span class="artist">Serani</span>
-      <span class="artist">SCH</span>
-      <span class="artist">Tayc</span>
-      <span class="artist">Tion Wayne</span>
-      <span class="artist">Vegedream</span>
-    </div>
-  </div>
-</section>
-
+        <div
+          class="grid gap-x-8 gap-y-6 [grid-template-columns:repeat(auto-fit,minmax(160px,1fr))] justify-center text-sm sm:text-base font-semibold tracking-wide uppercase"
+        >
+          <span class="artist">Ace Hood</span>
+          <span class="artist">Aya Nakamura</span>
+          <span class="artist">Booba</span>
+          <span class="artist">C.J</span>
+          <span class="artist">Charly Black</span>
+          <span class="artist">Daddy Yankee</span>
+          <span class="artist">Dadju</span>
+          <span class="artist">DJ Snake</span>
+          <span class="artist">Fat Joe</span>
+          <span class="artist">Franglish</span>
+          <span class="artist">Gims</span>
+          <span class="artist">Gradur</span>
+          <span class="artist">Guy2Bezbar</span>
+          <span class="artist">Jason Derulo</span>
+          <span class="artist">Keblack</span>
+          <span class="artist">Kid Ink</span>
+          <span class="artist">Lil Jon</span>
+          <span class="artist">Mario</span>
+          <span class="artist">Matt Houston</span>
+          <span class="artist">Mims</span>
+          <span class="artist">Naza</span>
+          <span class="artist">Ninho</span>
+          <span class="artist">Niska</span>
+          <span class="artist">O.T. Genasis</span>
+          <span class="artist">Russ Millions</span>
+          <span class="artist">Serani</span>
+          <span class="artist">SCH</span>
+          <span class="artist">Tayc</span>
+          <span class="artist">Tion Wayne</span>
+          <span class="artist">Vegedream</span>
+        </div>
+      </div>
+    </section>
 
     <!-- SHOWS -->
-    <section class="w-full bg-black py-24 px-6">
+    <section class="w-full bg-black py-24 px-6" id="show">
       <div class="max-w-4xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">
           Upcoming Shows

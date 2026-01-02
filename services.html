@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services – DJ Nocoon</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .nav-link {
+        transition: color 0.2s;
+      }
+      .nav-link:hover {
+        color: #60a5fa;
+      }
+    </style>
+  </head>
+
+  <body class="bg-black text-white">
+    <!-- NAVBAR (same as index) -->
+    <nav
+      class="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-md border-b border-white/5"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a href="index.html">
+          <img
+            src="assets/logo/nocoon.png"
+            class="invert w-32"
+            alt="DJ Nocoon Logo"
+          />
+        </a>
+
+        <!-- Desktop -->
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="services.html" class="nav-link">Services</a>
+        </div>
+
+        <!-- Mobile button -->
+        <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-black/95 px-6 pb-6 text-center"
+      >
+        <a href="index.html" class="block py-3 border-b border-white/10">
+          Home
+        </a>
+        <a href="services.html" class="block py-3"> Services </a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="pt-40 pb-24 px-6 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Services</h1>
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+        Professional music production services built on years of industry
+        experience.
+      </p>
+    </section>
+
+    <!-- SERVICES GRID -->
+    <section class="pb-32 px-6">
+      <div
+        class="max-w-6xl mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+      >
+        <!-- MIXING -->
+        <div
+          class="bg-[#111] border border-white/5 rounded-xl p-8 flex flex-col text-center"
+        >
+          <h3 class="text-xl font-semibold mb-4">Mixing</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            Clean, balanced mixdown that translates well across all systems.
+          </p>
+
+          <div class="mt-auto">
+            <p class="text-2xl font-bold mb-4">€250 / Song</p>
+            <a
+              href="#contact"
+              class="block text-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition font-semibold"
+            >
+              Request
+            </a>
+          </div>
+        </div>
+
+        <!-- MASTERING -->
+        <div
+          class="bg-[#111] border border-white/5 rounded-xl p-8 flex flex-col text-center"
+        >
+          <h3 class="text-xl font-semibold mb-4">Mastering</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            Final polish for loudness and clarity, optimized for streaming and
+            club systems.
+          </p>
+
+          <div class="mt-auto">
+            <p class="text-2xl font-bold mb-4">€125 / Song</p>
+            <a
+              href="#contact"
+              class="block text-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition font-semibold"
+            >
+              Request
+            </a>
+          </div>
+        </div>
+
+        <!-- GHOST PRODUCTION -->
+        <div
+          class="bg-[#111] border border-white/5 rounded-xl p-8 flex flex-col text-center"
+        >
+          <h3 class="text-xl font-semibold mb-4">Ghost Production</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            Full song ghost production, ready for release. You keep 100% of the
+            rights.
+          </p>
+
+          <div class="mt-auto">
+            <p class="text-2xl font-bold mb-4">€1000 / Song</p>
+            <a
+              href="#contact"
+              class="block text-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition font-semibold"
+            >
+              Request
+            </a>
+          </div>
+        </div>
+
+        <!-- 1-ON-1 -->
+        <div
+          class="bg-[#111] border border-white/5 rounded-xl p-8 flex flex-col text-center"
+        >
+          <h3 class="text-xl font-semibold mb-4">Flyer Design</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            Custom event flyers for clubs and artists, optimized for social
+            media.
+          </p>
+
+          <div class="mt-auto">
+            <p class="text-2xl font-bold mb-4">€250 / Flyer</p>
+            <a
+              href="#contact"
+              class="block text-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition font-semibold"
+            >
+              Request
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section id="contact" class="py-24 px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Bookings & Inquiries</h2>
+      <p class="text-gray-400 max-w-xl mx-auto mb-10">
+        For service requests, availability, or custom projects, contact me
+        directly on Instagram.
+      </p>
+
+      <a
+        href="https://instagram.com/djnocoon"
+        target="_blank"
+        class="inline-block px-10 py-4 bg-white text-black font-semibold rounded hover:opacity-90 transition"
+      >
+        Contact via Instagram
+      </a>
+    </section>
+  </body>
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    document.querySelectorAll("#mobileMenu a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+      });
+    });
+  </script>
+</html>
