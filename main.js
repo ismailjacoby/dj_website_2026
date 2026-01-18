@@ -91,3 +91,27 @@ document.querySelectorAll(".mobile-link").forEach((link) => {
     mobileMenu.classList.add("hidden");
   });
 });
+
+const mixtapesEl = document.getElementById("mixtapes");
+
+mixtapes.forEach((mix) => {
+  mixtapesEl.insertAdjacentHTML(
+    "beforeend",
+    `
+    <div class="bg-[#111] rounded-xl border border-white/5 p-4">
+      <p class="mb-4 font-semibold text-lg">${mix.title}</p>
+      <div class="relative w-full ${
+        mix.platform === "soundcloud" ? "h-40" : "h-32"
+      }">
+        <iframe
+          class="absolute inset-0 w-full h-full rounded"
+          src="${mix.embedUrl}"
+          frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    `
+  );
+});

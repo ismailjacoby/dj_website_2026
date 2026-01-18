@@ -76,3 +76,18 @@ const images = [
   "assets/live/white.png",
   "assets/live/white2.png",
 ];
+
+const mixtapes = [
+  {
+    platform: "mixcloud",
+    title: "M Club - Podcast (2017)",
+    embedUrl:
+      "https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FMCLUBLUX%2Fmodcast-february-2017%2F",
+  },
+  {
+    platform: "soundcloud",
+    title: "Seven Club - 2 Years Mixtape (2014)",
+    embedUrl:
+      "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/seven-club-luxembourg/2-years-seven-club-mixtape-mixed-by-dj-nocoon&color=%23000000&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false",
+  },
+];
