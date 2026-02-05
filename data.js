@@ -19,25 +19,6 @@ const logos = [
 
 const shows = [
   {
-    date: "10 Jan 2026",
-    venue: "M Club",
-    location: "Saarbrücken, De",
-    link: null,
-  },
-  { date: "24 Jan 2026", venue: "Klubb", location: "Metz, Fr", link: null },
-  {
-    date: "31 Jan 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "06 Feb 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
     date: "14 Feb 2026",
     venue: "Main",
     location: "Luxembourg, Lu",
@@ -53,6 +34,18 @@ const shows = [
     date: "21 Feb 2026",
     venue: "Klubb",
     location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "07 Mar 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "28 Mar 2026",
+    venue: "Encore",
+    location: "Luxembourg, Lu",
     link: null,
   },
 ];
