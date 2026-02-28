@@ -34,7 +34,7 @@ shows.forEach((show, i) => {
       ${
         hasTickets
           ? `<a
-              href="${show.link}"
+              href="${show.link}" target="_blank"
               class="flex items-center justify-center px-5 py-2 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition"
             >
               Tickets
