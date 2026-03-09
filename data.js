@@ -50,7 +50,7 @@ const shows = [
   },
   {
     date: "28 Mar 2026",
-    venue: "Medusa - Location TBA",
+    venue: "Medusa",
     location: "Luxembourg, Lu",
     link: "http://www.fourvenues.com/medusa-luxembourg/99D0",
   },
