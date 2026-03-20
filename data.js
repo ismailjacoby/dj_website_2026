@@ -19,40 +19,34 @@ const logos = [
 
 const shows = [
   {
-    date: "14 Feb 2026",
-    venue: "Main",
+    date: "28 Mar 2026",
+    venue: "Medusa",
     location: "Luxembourg, Lu",
-    link: null,
+    link: "http://www.fourvenues.com/medusa-luxembourg/99D0",
   },
   {
-    date: "20 Feb 2026",
+    date: "04 Apr 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
   {
-    date: "21 Feb 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "28 Feb 2026",
-    venue: "M Club",
-    location: "Saarbrücken, De",
-    link: null,
-  },
-  {
-    date: "07 Mar 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "28 Mar 2026",
-    venue: "Medusa",
+    date: "10 Apr 2026",
+    venue: "Main",
     location: "Luxembourg, Lu",
-    link: "http://www.fourvenues.com/medusa-luxembourg/99D0",
+    link: null,
+  },
+  {
+    date: "11 Apr 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "17 Apr 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
   },
 ];
 
