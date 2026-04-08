@@ -37,6 +37,12 @@ const shows = [
     link: null,
   },
   {
+    date: "30 Apr 2026",
+    venue: "Atmos",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
     date: "09 May 2026",
     venue: "Klubb",
     location: "Metz, Fr",
