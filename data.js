@@ -38,9 +38,9 @@ const shows = [
   },
   {
     date: "30 Apr 2026",
-    venue: "Atmos",
+    venue: "Aura",
     location: "Luxembourg, Lu",
-    link: null,
+    link: "https://www.billetweb.fr/a-u-r-a-luxembourg",
   },
   {
     date: "09 May 2026",
