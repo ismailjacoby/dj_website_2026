@@ -19,19 +19,13 @@ const logos = [
 
 const shows = [
   {
-    date: "10 Apr 2026",
-    venue: "Main",
+    date: "17 Apr 2026",
+    venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
   {
-    date: "11 Apr 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "17 Apr 2026",
+    date: "18 Apr 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
@@ -41,6 +35,12 @@ const shows = [
     venue: "Aura",
     location: "Luxembourg, Lu",
     link: "https://www.billetweb.fr/a-u-r-a-luxembourg",
+  },
+  {
+    date: "01 May 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
   },
   {
     date: "09 May 2026",
