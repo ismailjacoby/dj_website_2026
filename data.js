@@ -42,10 +42,10 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-  {
-    date: "09 May 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
+    {
+    date: "02 May 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
     link: null,
   },
   {
@@ -58,6 +58,12 @@ const shows = [
     date: "16 May 2026",
     venue: "Klubb",
     location: "Metz, Fr",
+    link: null,
+  },
+    {
+    date: "23 Apr 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
     link: null,
   },
 ];
