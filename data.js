@@ -49,7 +49,7 @@ const shows = [
     link: null,
   },
     {
-    date: "23 Apr 2026",
+    date: "23 May 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
