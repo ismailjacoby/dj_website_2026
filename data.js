@@ -19,43 +19,49 @@ const logos = [
 
 const shows = [
   {
-    date: "17 Apr 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "18 Apr 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "30 Apr 2026",
-    venue: "Aura",
-    location: "Luxembourg, Lu",
-    link: "https://www.billetweb.fr/a-u-r-a-luxembourg",
-  },
-  {
-    date: "01 May 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "09 May 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "13 May 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
     date: "16 May 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "23 May 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "05 June 2026",
+    venue: "TBA",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "13 June 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "19 June 2026",
+    venue: "Nachtschicht",
+    location: "Kaiserslautern, De",
+    link: null,
+  },
+  {
+    date: "22 June 2026",
+    venue: "TBA",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "18 July 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "15 August 2026",
     venue: "Klubb",
     location: "Metz, Fr",
     link: null,
