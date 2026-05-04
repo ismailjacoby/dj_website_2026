@@ -19,49 +19,17 @@ const logos = [
 
 const shows = [
   {
-<<<<<<< HEAD
-=======
-    date: "30 Apr 2026",
-    venue: "Aura",
-    location: "Luxembourg, Lu",
-    link: "https://www.billetweb.fr/a-u-r-a-luxembourg",
-  },
-  {
-    date: "01 May 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-    {
-    date: "02 May 2026",
-    venue: "Main",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "13 May 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
->>>>>>> 06b5ce866631a3324d23fae3213fac706bdd4531
     date: "16 May 2026",
     venue: "Klubb",
     location: "Metz, Fr",
     link: null,
   },
-<<<<<<< HEAD
   {
-=======
-    {
->>>>>>> 06b5ce866631a3324d23fae3213fac706bdd4531
     date: "23 May 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
-<<<<<<< HEAD
   {
     date: "05 June 2026",
     venue: "TBA",
@@ -98,8 +66,6 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
-=======
->>>>>>> 06b5ce866631a3324d23fae3213fac706bdd4531
 ];
 
 const videos = [
