@@ -66,6 +66,12 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
+   {
+    date: "26 July 2026",
+    venue: "Black Carpet",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
   {
     date: "15 August 2026",
     venue: "Klubb",
