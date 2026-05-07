@@ -30,6 +30,12 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
+    {
+    date: "29 May 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
   {
     date: "05 June 2026",
     venue: "TBA",
