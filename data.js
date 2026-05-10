@@ -30,15 +30,15 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "29 May 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
   {
-    date: "05 June 2026",
-    venue: "TBA",
+    date: "06 June 2026",
+    venue: "Meryl Showcase - Encore",
     location: "Luxembourg, Lu",
     link: null,
   },
@@ -66,7 +66,7 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
-   {
+  {
     date: "26 July 2026",
     venue: "Black Carpet",
     location: "Luxembourg, Lu",
