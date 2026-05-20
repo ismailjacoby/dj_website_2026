@@ -19,12 +19,6 @@ const logos = [
 
 const shows = [
   {
-    date: "16 May 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
     date: "23 May 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
@@ -32,11 +26,11 @@ const shows = [
   },
   {
     date: "06 June 2026",
-    venue: "Meryl Showcase - Encore",
+    venue: "TBD",
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "12 June 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
@@ -54,7 +48,7 @@ const shows = [
     location: "Kaiserslautern, De",
     link: null,
   },
-      {
+  {
     date: "20 June 2026",
     venue: "Main",
     location: "Luxembourg, Lu",
@@ -66,7 +60,7 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "26 June 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
