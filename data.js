@@ -7,7 +7,7 @@ const logos = [
   "assets/clubs/klubb.png",
   "assets/clubs/larocca.png",
   "assets/clubs/loges.png",
-  "assets/clubs/main.png",
+  "assets/clubs/nachtschicht.jpg",
   "assets/clubs/mclub.png",
   "assets/clubs/mirano.png",
   "assets/clubs/seven.png",
@@ -19,49 +19,13 @@ const logos = [
 
 const shows = [
   {
-    date: "23 May 2026",
+    date: "03 July 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
   {
-    date: "06 June 2026",
-    venue: "TBD",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "12 June 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "13 June 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "19 June 2026",
-    venue: "Nachtschicht",
-    location: "Kaiserslautern, De",
-    link: null,
-  },
-  {
-    date: "20 June 2026",
-    venue: "Main",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "22 June 2026",
-    venue: "TBA",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "26 June 2026",
+    date: "11 July 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
@@ -73,8 +37,20 @@ const shows = [
     link: null,
   },
   {
+    date: "25 July 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
     date: "26 July 2026",
     venue: "Black Carpet",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "31 July 2026",
+    venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
