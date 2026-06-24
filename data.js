@@ -7,7 +7,7 @@ const logos = [
   "assets/clubs/klubb.png",
   "assets/clubs/larocca.png",
   "assets/clubs/loges.png",
-  "assets/clubs/nachtschicht.jpg",
+  "assets/clubs/main.png",
   "assets/clubs/mclub.png",
   "assets/clubs/mirano.png",
   "assets/clubs/seven.png",

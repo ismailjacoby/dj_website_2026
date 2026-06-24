@@ -92,7 +92,9 @@ document.querySelectorAll(".mobile-link").forEach((link) => {
   });
 });
 
+/*
 const mixtapesEl = document.getElementById("mixtapes");
+
 
 mixtapes.forEach((mix) => {
   mixtapesEl.insertAdjacentHTML(
@@ -115,3 +117,4 @@ mixtapes.forEach((mix) => {
     `
   );
 });
+*/
