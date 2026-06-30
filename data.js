@@ -26,7 +26,7 @@ const shows = [
   },
     {
     date: "04 July 2026",
-    venue: "Wildeheimat",
+    venue: "Wilde Heimat",
     location: "Koblenz, De",
     link: null,
   },
