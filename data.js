@@ -31,6 +31,12 @@ const shows = [
     link: null,
   },
   {
+    date: "17 July 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
     date: "18 July 2026",
     venue: "Klubb",
     location: "Metz, Fr",
@@ -60,6 +66,19 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
+    {
+    date: "26 September 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+      {
+    date: "31 December 2026",
+    venue: "Encore",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  
 ];
 
 const videos = [
