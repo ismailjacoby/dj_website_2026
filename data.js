@@ -24,6 +24,12 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
+    {
+    date: "04 July 2026",
+    venue: "Wildeheimat",
+    location: "Koblenz, De",
+    link: null,
+  },
   {
     date: "11 July 2026",
     venue: "Blow",
