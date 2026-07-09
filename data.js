@@ -24,7 +24,7 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "04 July 2026",
     venue: "Wilde Heimat",
     location: "Koblenz, De",
@@ -36,7 +36,7 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "13 July 2026",
     venue: "Fete Nationale",
     location: "Metz, Fr",
@@ -78,19 +78,24 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
-    {
+  {
+    date: "06 September 2026",
+    venue: "Chouchou",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
     date: "26 September 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
-      {
+  {
     date: "31 December 2026",
     venue: "Encore",
     location: "Luxembourg, Lu",
     link: null,
   },
-  
 ];
 
 const videos = [
