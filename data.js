@@ -73,9 +73,27 @@ const shows = [
     link: null,
   },
   {
+    date: "01 August 2026",
+    venue: "Maya Beach",
+    location: "Luxembourg, Lu",
+    link: "https://www.mayabeach.lu/events/legacy-sat-01st-aug-26-best-of-hiphop-rnb-from-90s-till-2010s-with-dj-ilais-dj-n-5ccc9479",
+  },
+  {
+    date: "08 August 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
     date: "15 August 2026",
     venue: "Klubb",
     location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "21 August 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
     link: null,
   },
   {
