@@ -92,6 +92,18 @@ const shows = [
   },
   {
     date: "21 August 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "22 August 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "29 August 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
