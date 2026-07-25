@@ -118,7 +118,7 @@ const shows = [
     date: "06 September 2026",
     venue: "Chouchou",
     location: "Luxembourg, Lu",
-    link: null,
+    link: "https://site.fourvenues.com/en/chouchou/events/ginger-06-09-2026-G3MO?fbclid=PAZXh0bgNhZW0DMTAwAHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABp4SxbETd4r3kvIdwXYa4qXQqXHiBnznc_WnQm5hWbRVVtd3yrOm_FsqcnZnt_aem_AsYTLqGUaWR7iQsnkAGXTw",
   },
   {
     date: "26 September 2026",
