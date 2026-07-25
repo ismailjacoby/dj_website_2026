@@ -56,8 +56,8 @@ const shows = [
   },
   {
     date: "25 July 2026",
-    venue: "Main",
-    location: "Luxembourg, Lu",
+    venue: "Klubb",
+    location: "Metz, Fr",
     link: null,
   },
   {
@@ -101,6 +101,12 @@ const shows = [
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
+  },
+  {
+    date: "23 August 2026",
+    venue: "Medusa x Chouchou",
+    location: "Luxembourg, Lu",
+    link: "https://site.fourvenues.com/en/medusa-luxembourg/events/medusa--outside--23-08-2026-OW19?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnYouJSxazsM1ObjHvT0b2gq-9YKc6Y7xTSatxcY1OkPDRKTOJh9vBRFsl5kg_aem_PUR00Gc2tQ9ACYgAiTqcQg",
   },
   {
     date: "29 August 2026",
