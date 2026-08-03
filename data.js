@@ -19,66 +19,6 @@ const logos = [
 
 const shows = [
   {
-    date: "03 July 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "04 July 2026",
-    venue: "Wilde Heimat",
-    location: "Koblenz, De",
-    link: null,
-  },
-  {
-    date: "11 July 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "13 July 2026",
-    venue: "Fete Nationale",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "17 July 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "18 July 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "25 July 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "26 July 2026",
-    venue: "Black Carpet",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "31 July 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "01 August 2026",
-    venue: "Maya Beach",
-    location: "Luxembourg, Lu",
-    link: "https://www.mayabeach.lu/events/legacy-sat-01st-aug-26-best-of-hiphop-rnb-from-90s-till-2010s-with-dj-ilais-dj-n-5ccc9479",
-  },
-  {
     date: "08 August 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
