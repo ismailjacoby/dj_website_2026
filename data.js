@@ -19,49 +19,31 @@ const logos = [
 
 const shows = [
   {
-    date: "08 August 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "15 August 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "21 August 2026",
+    date: "12 September 2026",
     venue: "Main",
     location: "Luxembourg, Lu",
     link: null,
   },
   {
-    date: "22 August 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "23 August 2026",
-    venue: "Medusa x Chouchou",
-    location: "Luxembourg, Lu",
-    link: "https://site.fourvenues.com/en/medusa-luxembourg/events/medusa--outside--23-08-2026-OW19?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnYouJSxazsM1ObjHvT0b2gq-9YKc6Y7xTSatxcY1OkPDRKTOJh9vBRFsl5kg_aem_PUR00Gc2tQ9ACYgAiTqcQg",
-  },
-  {
-    date: "29 August 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "06 September 2026",
-    venue: "Chouchou",
-    location: "Luxembourg, Lu",
-    link: "https://site.fourvenues.com/en/chouchou/events/ginger-06-09-2026-G3MO?fbclid=PAZXh0bgNhZW0DMTAwAHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABp4SxbETd4r3kvIdwXYa4qXQqXHiBnznc_WnQm5hWbRVVtd3yrOm_FsqcnZnt_aem_AsYTLqGUaWR7iQsnkAGXTw",
-  },
-  {
     date: "26 September 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "17 October 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "24 October 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "31 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
