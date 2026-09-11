@@ -31,6 +31,12 @@ const shows = [
     link: null,
   },
   {
+    date: "10 October 2026",
+    venue: "Rewind Party - I AM WOW!",
+    location: "Bertrange, Lu",
+    link: "https://www.therewind.party/event-details/game-party-2",
+  },
+  {
     date: "17 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
