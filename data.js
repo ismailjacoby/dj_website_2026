@@ -31,6 +31,12 @@ const shows = [
     link: null,
   },
   {
+    date: "03 October 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
     date: "10 October 2026",
     venue: "Rewind Party - I AM WOW!",
     location: "Bertrange, Lu",
@@ -52,6 +58,24 @@ const shows = [
     date: "31 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "14 November 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "21 November 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
+    link: null,
+  },
+  {
+    date: "05 December 2026",
+    venue: "Klubb",
+    location: "Metz, Fr",
     link: null,
   },
   {
