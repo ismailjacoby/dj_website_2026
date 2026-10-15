@@ -19,31 +19,13 @@ const logos = [
 
 const shows = [
   {
-    date: "12 September 2026",
-    venue: "Main",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "26 September 2026",
+    date: "17 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
-  {
-    date: "03 October 2026",
-    venue: "Klubb",
-    location: "Metz, Fr",
-    link: null,
-  },
-  {
-    date: "10 October 2026",
-    venue: "Rewind Party - I AM WOW!",
-    location: "Bertrange, Lu",
-    link: "https://www.therewind.party/event-details/game-party-2",
-  },
-  {
-    date: "17 October 2026",
+    {
+    date: "23 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
@@ -60,14 +42,32 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
+    {
+    date: "07 November 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+      {
+    date: "13 November 2026",
+    venue: "Blow",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
   {
     date: "14 November 2026",
     venue: "Klubb",
     location: "Metz, Fr",
     link: null,
   },
+    {
+    date: "27 November 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
   {
-    date: "21 November 2026",
+    date: "28 November 2026",
     venue: "Klubb",
     location: "Metz, Fr",
     link: null,
@@ -76,6 +76,12 @@ const shows = [
     date: "05 December 2026",
     venue: "Klubb",
     location: "Metz, Fr",
+    link: null,
+  },
+    {
+    date: "11 December 2026",
+    venue: "Main",
+    location: "Luxembourg, Lu",
     link: null,
   },
   {
