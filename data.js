@@ -24,7 +24,7 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "23 October 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
@@ -42,13 +42,13 @@ const shows = [
     location: "Luxembourg, Lu",
     link: null,
   },
-    {
+  {
     date: "07 November 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
     link: null,
   },
-      {
+  {
     date: "13 November 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
@@ -60,7 +60,14 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
-    {
+
+  {
+    date: "21 November 2026",
+    venue: "Medusa",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
     date: "27 November 2026",
     venue: "Main",
     location: "Luxembourg, Lu",
@@ -78,7 +85,7 @@ const shows = [
     location: "Metz, Fr",
     link: null,
   },
-    {
+  {
     date: "11 December 2026",
     venue: "Main",
     location: "Luxembourg, Lu",
