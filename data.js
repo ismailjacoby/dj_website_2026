@@ -19,30 +19,6 @@ const logos = [
 
 const shows = [
   {
-    date: "17 October 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "23 October 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "24 October 2026",
-    venue: "Main",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
-    date: "31 October 2026",
-    venue: "Blow",
-    location: "Luxembourg, Lu",
-    link: null,
-  },
-  {
     date: "07 November 2026",
     venue: "Blow",
     location: "Luxembourg, Lu",
@@ -94,6 +70,24 @@ const shows = [
   {
     date: "31 December 2026",
     venue: "Encore",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "01 January 2027",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "15 January 2027",
+    venue: "Main",
+    location: "Luxembourg, Lu",
+    link: null,
+  },
+  {
+    date: "30 January 2027",
+    venue: "Notorious - Come a la Maison",
     location: "Luxembourg, Lu",
     link: null,
   },
